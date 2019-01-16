@@ -1,6 +1,15 @@
-source countdir.sh
-loopstop=0
+function countdir {
+
+        local dircount=0
+
+        dircount=$(ls -l | egrep "^d" | wc -l)
+
+        echo "$dircount"
+
+}
+
 dircount=$(countdir)
+loopstop=0
 
 echo "Welcome to Guessing Game! The purpose of this game is to try and guess the number of directories. Go ahead and try it. Take your first guess:"
 read guess

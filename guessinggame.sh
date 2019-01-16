@@ -10,7 +10,7 @@ function countdir {
 
 loopstop=0
 
-echo "Welcome to Guessing Game! The purpose of this game is to try and guess the number of directories. Go ahead and try it. Take your first guess:"
+echo "Welcome to Guessing Game! The purpose of this game is to try and guess the number of sub-directories in the current working directory. Go ahead and try it. Take your first guess:"
 read guess
 
 while [[ $loopstop -eq 0 ]]

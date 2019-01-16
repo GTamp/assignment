@@ -5,10 +5,8 @@ dircount=$(countdir)
 echo "Welcome to Guessing Game! The purpose of this game is to try and guess the number of directories. Go ahead and try it. Take your first guess:"
 read guess
 
-#asdgagasgf
-#adgsfasfd
-#jgnfyfhgbf
-#gdsf
+#ggf
+#gbf
 
 while [[ $loopstop -eq 0 ]]
 do
